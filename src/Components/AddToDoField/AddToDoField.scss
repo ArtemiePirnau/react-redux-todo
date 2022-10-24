@@ -1,0 +1,30 @@
+.addfield {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  &__input {
+    border: none;
+    border: 1px solid #efefef;
+    font-size: 20px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  &__btn {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: none;
+  }
+}
+@media (max-width: 330px) {
+  .addfield {
+    &__input {
+      font-size: 16px;
+    }
+  }
+}

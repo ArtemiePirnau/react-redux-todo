@@ -1,0 +1,10 @@
+.todo {
+  &__item.completed {
+    text-decoration: line-through;
+  }
+  &__item.important {
+    color: rgb(63, 151, 238);
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}
